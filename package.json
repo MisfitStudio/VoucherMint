@@ -1,0 +1,47 @@
+{
+  "name": "misfit-tourists-launch",
+  "version": "1.0.0",
+  "description": "This is a misfit NFT smart contract project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "./deploy.sh",
+    "reveal": "./reveal.sh",
+    "verify": "npx hardhat verify --network rinkeby ",
+    "nuke": "./nuke-contract.sh"
+  },
+  "repository": "https://git.nextaction.co/MisfitTourists/MisfitTouristsLaunch",
+  "author": "eighty88",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "@openzeppelin/contracts": "^4.4.2",
+    "@typechain/ethers-v5": "^4.0.0",
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^14.14.9",
+    "chai": "^4.2.0",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.2.0",
+    "ethers": "^5.0.21",
+    "hardhat": "^2.6.4",
+    "hardhat-deploy": "0.9.24",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "hardhat-gas-reporter": "^1.0.6",
+    "hardhat-typechain": "^0.3.4",
+    "solidity-coverage": "^0.7.17",
+    "ts-generator": "^0.1.1",
+    "ts-morph": "^9.0.0",
+    "ts-node": "^9.0.0",
+    "typechain": "^4.0.1",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.4.2",
+    "@openzeppelin/hardhat-upgrades": "^1.12.1",
+    "@symfoni/hardhat-react": "^0.3.0",
+    "chalk": "^4.1.2"
+  }
+}

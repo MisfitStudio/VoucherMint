@@ -1,0 +1,20 @@
+node_modules/
+
+
+
+yarn-error.log
+
+coverage/
+coverage.json
+
+# typechain/
+# deployments/
+
+.DS_Store
+generateNFTs/misfits
+artifacts/
+cache/
+node_modules
+frontend/src/hardhat/
+.env
+!.sample.env
